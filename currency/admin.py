@@ -3,4 +3,4 @@ from .models import CurrencyRate
 
 @admin.register(CurrencyRate)
 class NoteAdmin(admin.ModelAdmin):
-    list_display = ['name', 'slug', 'price', 'date']
+    list_display = ('name', 'slug', 'price', 'date',)

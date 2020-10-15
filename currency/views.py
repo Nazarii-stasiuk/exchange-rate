@@ -27,7 +27,6 @@ class Rate(APIView):
         data = request.data
         symbol = data.get('symbol', None)
         date = data.get('date', None)
-        print(date)
         if symbol is None:
             return Response({'msg': "Symbol is required parametr"}, status=400)
         if date is not None:

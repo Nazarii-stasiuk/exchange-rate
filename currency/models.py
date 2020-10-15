@@ -13,6 +13,7 @@ class CurrencyRate(Model):
     
     class Meta: 
         ordering = ['-date']
+        db_table = "currency_rate"
     
 
         
