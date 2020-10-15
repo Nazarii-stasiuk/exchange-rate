@@ -1,5 +1,5 @@
 """
-ASGI config for post_in project.
+ASGI config for exchange_rate project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'post_in.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'exchange_rate.settings')
 
 application = get_asgi_application()
